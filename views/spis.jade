@@ -1,0 +1,27 @@
+extends layout
+block content       
+ header
+   #headerCenter
+     h1 Koty rasowe ^._.^
+     nav
+       ul
+         li
+           a(href='/') Strona Główna
+         li
+           a(href='/spis') Spis kotów
+         li
+           a(href='/formularz') Dodaj rasę
+
+ main
+   #catList
+     #card
+       figure
+         img(src='../public/images/', alt='cat photo')
+       #info
+         h2.breed Rasa kota: bengalski
+         h3.origin Pochodzenie: afryka
+         h3.weigh Waga: 3.5kg
+         h3.color Kolor: Moręgowaty
+         h3.description Opis:
+         p
+           | Tu bedzie opis
